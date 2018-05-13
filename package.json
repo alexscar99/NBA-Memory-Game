@@ -1,0 +1,22 @@
+{
+  "name": "react-click-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexscar99/React-Click-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexscar99/React-Click-Game/issues"
+  },
+  "homepage": "https://github.com/alexscar99/React-Click-Game#readme",
+  "dependencies": {
+    "create-react-app": "^1.5.2"
+  }
+}
