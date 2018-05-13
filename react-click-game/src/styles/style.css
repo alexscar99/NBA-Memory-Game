@@ -45,7 +45,7 @@ a {
 }
 
 .bg-img {
-  background: url('../img/basketball-court.jpg');
+  background: url('../basketball-court.jpg');
   width: 100vw;
   height: 80vh;
   background-position: center center;
@@ -100,7 +100,7 @@ a {
 
 .footer {
   background: #27ddbc;
-  height: 110px;
+  height: 100px;
   position: relative;
   color: white;
   overflow: auto;
@@ -112,15 +112,12 @@ a {
   left: 0;
   right: 0;
   background: #25a58e;
-  padding: 5px;
+  padding: 8px;
   font-weight: 600;
-  font-size: 1.2em;
-  padding-bottom: 10px;
 }
 
 .footer > .bottom > img {
   width: 40px;
   position: relative;
-  top: 7px;
   left: 5px;
 }
