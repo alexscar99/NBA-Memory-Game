@@ -32,6 +32,7 @@ class App extends Component {
           <div className="row">
             {this.state.players.map(player => (
               <PlayerCard
+                shufflePlayers={this.shufflePlayers}
                 id={player.id}
                 key={player.name}
                 image={player.image}
