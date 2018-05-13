@@ -14,7 +14,7 @@ class LandingArea extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar">
+        <nav className="navbar-heading">
           <ul>
             <li>
               <a href="/">NBA Clicky Game</a>
@@ -27,9 +27,9 @@ class LandingArea extends Component {
             </li>
           </ul>
         </nav>
-        <div class="bg-img">
-          <div class="img-mask">
-            <div class="landing-content">
+        <div className="bg-img">
+          <div className="img-mask">
+            <div className="landing-content">
               <h1>NBA Clicky Game</h1>
               <h2>
                 Click on a player to earn points, but don't click on any more
