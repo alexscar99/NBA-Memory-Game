@@ -1,0 +1,111 @@
+* {
+  font-family: 'Helvetica', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+a {
+  background: transparent;
+}
+
+.navbar {
+  background: #25a58e;
+  min-height: 70px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: white;
+  z-index: 99;
+  white-space: nowrap;
+  margin-top: -20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 50px 0 30px;
+  width: 33.3%;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.bg-img {
+  background: url('../img/basketball-court.jpg');
+  width: 100vw;
+  height: 80vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-mask {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.landing-content {
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.landing-content h1 {
+  font-size: 4.5em;
+}
+
+.landing-content h2 {
+  margin-top: 15px;
+  color: #27ddbc;
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 1100px;
+}
+
+.footer {
+  background: #27ddbc;
+  height: 110px;
+  position: relative;
+  color: white;
+  overflow: auto;
+}
+
+.footer > .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #25a58e;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.footer > .bottom > img {
+  width: 40px;
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
