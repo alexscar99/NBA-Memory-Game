@@ -9,10 +9,10 @@ const LandingArea = ({ instructions, topScore, score }) => {
             <a href="/">NBA Memory Game</a>
           </li>
 
-          <li>{instructions}</li>
+          <li className="display-msg">{instructions}</li>
 
           <li>
-            Score: {score} | Top Score: {topScore}
+            Score: {score} &lt;&gt; High Score: {topScore}
           </li>
         </ul>
       </nav>

@@ -44,6 +44,10 @@ a {
   font-size: 1.8em;
 }
 
+.display-msg {
+  color: black;
+}
+
 .bg-img {
   background: url('../basketball-court.jpg');
   width: 100vw;
