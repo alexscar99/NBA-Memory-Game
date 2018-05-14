@@ -34,29 +34,42 @@ class App extends Component {
     this.setState({ players });
   };
 
-  handleIncrementScore = event => {
-    const guessedPlayer = event.target.key;
-    console.log(guessedPlayer);
+  handleIncrementScore = id => {
+    const playerGuessedState = this.state.guessedPlayers;
 
-    if (this.state.guessedPlayers.includes(guessedPlayer)) {
+    if (playerGuessedState.includes(id)) {
       let instructions = this.state.instructions;
       instructions = 'You guessed incorrect!';
       const score = 0;
-      this.setState({ instructions });
-      this.setState({ score });
+      let topScore = this.state.topScore;
+      this.setState({
+        instructions,
+        score,
+        topScore,
+        guessedPlayers: []
+      });
+    } else {
+      let score = this.state.score;
+      score = score + 1;
+
+      let topScore = this.state.topScore;
+      if (this.state.score === this.state.topScore) {
+        topScore = topScore + 1;
+      }
+
+      let newGuessedPlayers = playerGuessedState.slice();
+      newGuessedPlayers.push(id);
+
+      let instructions = this.state.instructions;
+      instructions = 'You guessed correct!';
+
+      this.setState({
+        score: score,
+        topScore: topScore,
+        instructions: instructions,
+        guessedPlayers: newGuessedPlayers
+      });
     }
-
-    let score = this.state.score;
-    score = score + 1;
-
-    let topScore = this.state.topScore;
-    topScore = topScore + 1;
-
-    this.setState({
-      topScore: topScore,
-      score: score,
-      guessedPlayers: guessedPlayer
-    });
   };
 
   render() {
