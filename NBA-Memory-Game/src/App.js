@@ -18,9 +18,9 @@ class App extends Component {
   }
 
   shufflePlayers = () => {
-    let currentIndex = players.length;
-    let temporaryValue;
-    let randomIndex;
+    let currentIndex = players.length,
+      temporaryValue,
+      randomIndex;
 
     while (0 !== currentIndex) {
       randomIndex = Math.floor(Math.random() * currentIndex);
