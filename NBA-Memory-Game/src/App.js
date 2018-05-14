@@ -58,7 +58,7 @@ class App extends Component {
       }
 
       let instructions = this.state.instructions;
-      instructions = 'You guessed correct!';
+      instructions = "You've guessed correctly!";
 
       this.setState({
         score,
