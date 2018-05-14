@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "image": "img/lebron-james.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Russel Westbrook",
+    "image": "img/russel-westbrook.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Steph Curry",
+    "image": "img/steph-curry.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Anthony Davis",
+    "image": "img/anthony-davis.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kristaps Porzingis",
+    "image": "/img/kristaps-porzingis.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kevin Durant",
+    "image": "/img/kevin-durant.jpg"
+  },
+  {
+    "id": 7,
+    "name": "James Harden",
+    "image": "/img/james-harden.jpg"
+  },
+  {
+    "id": 8,
+    "name": "DeMar DeRozan",
+    "image": "/img/demar-derozan.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Kyrie Irving",
+    "image": "/img/kyrie-irving.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ben Simmons",
+    "image": "/img/ben-simmons.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Kawhi Leonard",
+    "image": "/img/kawhi-leonard.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Damian Lillard",
+    "image": "/img/damian-lillard.jpg"
+  }
+]
