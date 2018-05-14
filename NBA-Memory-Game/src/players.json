@@ -2,22 +2,22 @@
   {
     "id": 1,
     "name": "LeBron James",
-    "image": "/img/lebron-james.jpg"
+    "image": "img/lebron-james.jpg"
   },
   {
     "id": 2,
     "name": "Russel Westbrook",
-    "image": "/img/russel-westbrook.jpg"
+    "image": "img/russel-westbrook.jpg"
   },
   {
     "id": 3,
     "name": "Steph Curry",
-    "image": "/img/steph-curry.jpg"
+    "image": "img/steph-curry.jpg"
   },
   {
     "id": 4,
     "name": "Anthony Davis",
-    "image": "/img/anthony-davis.jpg"
+    "image": "img/anthony-davis.jpg"
   },
   {
     "id": 5,
